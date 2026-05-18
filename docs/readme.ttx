@@ -1,1 +1,32 @@
 
+# Azure Node.js App Service Lab
+
+Mini lab Azure démontrant le déploiement d’une application Node.js sur Azure App Service avec CI/CD via GitHub Actions.
+
+---
+
+## Technologies
+
+- Node.js
+- Express.js
+- Git & GitHub
+- GitHub Actions
+- Microsoft Azure
+- Azure App Service
+- Azure CLI
+- WSL Ubuntu
+
+---
+
+## Architecture
+
+```text
+WSL / VS Code
+      ↓
+GitHub Repository
+      ↓
+GitHub Actions CI/CD
+      ↓
+Azure App Service
+      ↓
+Node.js Web App
